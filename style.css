@@ -6,7 +6,7 @@ body{
 
 .container{
     width: 65%;
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -15,6 +15,7 @@ body{
 header{
     background-image: url(img/bg2.jpg);
     background-position: top -60px left;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     min-height: 70px;
@@ -105,6 +106,7 @@ header li a:hover{
     font-weight: 700;
     line-height: 70px;
     text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    
 }
 
 #showcase p{
@@ -218,7 +220,103 @@ header li a:hover{
     line-height: 26px;
 }
 
-/* Media Queries *****************************************/
+
+/*************** Media Queries ***********************/
+
+
+/* 992px */
+
+@media (min-width: 992px){
+    .container{
+        width: 970px;  
+    }
+    header{
+        background-position: top left;
+        
+    }
+    .header-btn{
+        padding-top: 0;
+    }
+}
+
+/* 1200px */
+
+@media (min-width: 1200px){
+    .container{
+        width: 1170px;     
+    }
+    
+    
+}
+
+/* 992px-768px */
+
+@media all and (max-width: 992px) and (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+    header{
+        height: 1250px;
+        background-position: top -100px left;
+        margin-bottom: -100px; 
+    }
+    header li{
+        padding-left: 0;
+        
+    }
+    #showcase h1{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    #showcase p{
+        width: 100%;
+        text-align: center; 
+    }
+    .header-btn{
+        text-align: center;
+        padding-top: 10px;  
+    }
+    #showcase img{ 
+        float: none;
+        top: -400px;
+        width: 100%;
+        left: 110px;
+        margin-top: auto;
+    }
+    #img2{
+        right: 0;
+    }
+    #showcase #images{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        margin-top: auto;
+        width: 35%;
+    }
+    #boxes{
+        width: 100%;
+    }
+    #boxes img{
+        width: 30%; 
+    }
+    #boxes .box{
+        width: 29%;
+        float: left;
+        margin: 0 auto;
+    }
+    #boxes h3{
+        font-size: 24px;
+        
+    }
+    #boxes p{
+        font-size: 15px;
+    }
+}
+
+
+/* MOBILE */
 
 @media(max-width: 768px){ 
     .container{
@@ -230,15 +328,16 @@ header li a:hover{
         height: 70%;
     }
     
+    
     /* MENU */
+
     .burger-nav{
         display: block;
         height: 40px;
         width: 100%;
         background: url(img/burger2.png) no-repeat 98% center;
         background-color: #202020;
-        cursor: pointer;
-        
+        cursor: pointer; 
         
     }
     
@@ -246,20 +345,13 @@ header li a:hover{
         overflow: hidden;
         background: #303030;
         width: 100%;
-        height: 0;
-        
+        height: 0;  
         
     }
     header nav ul.open{
         height: auto;
         padding-top: 10px;
-        padding-bottom: 15px;
-        
-         
-        
-       
-    
-      
+        padding-bottom: 15px;  
     }
     
     /* NAVBAR */
@@ -340,24 +432,25 @@ header li a:hover{
         width: 100%;
     }
     #boxes img{
-        width: 20%;
-
-        
+        width: 20%; 
     }
     #boxes .box{
         width: 90%;
         float: none;
         margin: 0 auto;
         padding: 0;  
-        
-        
+ 
     }
     #boxes p{
         padding-bottom: 20px;
     }
     
-    
 }
+
+
+
+
+
 
 
 
