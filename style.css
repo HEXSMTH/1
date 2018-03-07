@@ -13,7 +13,7 @@ body{
 /* NAVBAR */
 
 header{
-    background-image: url(img/bgfix.jpg);
+    background-image: url(img/bg2.jpg);
     background-position: top -60px left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,6 +221,75 @@ header li a:hover{
 }
 
 
+/* FEATURES */
+
+  
+
+#features{
+    padding-top: 120px;
+}
+#features .row{
+    padding-bottom: 150px;
+    
+}
+#features #row-img{
+    float: left;
+    padding-right: 30px;
+    width: 600px;
+    
+}
+#features #row-text{
+    padding-top: 40px;
+    
+    
+}
+#features #row-text h2{
+    
+    color: #3498db;
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0;
+}
+#features #row-text h2 span{
+        color: #FFF;
+    background-color: #3498db;
+    padding: 1px 15px 2px;
+}
+#features #row-text p{
+    margin-bottom: 30px;
+    padding-top: 20px;
+        font-family: 'Noto Sans', Arial, sans-serif;
+    color: #777;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+#features .btn-custom{
+        color: #3498db;
+    background-color: transparent;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 14px 40px;
+    border: 1px solid #3498db;
+    outline: none !important;
+    border-radius: 4px;
+}
+#features .btn-custom:hover{
+    background-color: #3498db;
+        color: #fff;
+    -webkit-transition: color .2s ease, background .2s ease, border .2s ease, outline .2s ease, opacity .2s ease-in-out;
+        transition: color .2s ease, background .2s ease, border .2s ease, outline .2s ease, opacity .2s ease-in-out;
+}
+
+
+
+
+
+
+
 /*************** Media Queries ***********************/
 
 
@@ -264,6 +333,9 @@ header li a:hover{
         padding-left: 0;
         
     }
+    
+    
+    
     #showcase h1{
         width: 100%;
         text-align: center;
@@ -295,6 +367,9 @@ header li a:hover{
         margin-top: auto;
         width: 35%;
     }
+    
+    
+    
     #boxes{
         width: 100%;
     }
@@ -313,6 +388,30 @@ header li a:hover{
     #boxes p{
         font-size: 15px;
     }
+    
+    
+    
+    #features #row-img{
+        float: none;
+        margin: 0 auto;
+        padding-right: 0;
+    
+    }
+    #features #row-text h2{
+        text-align: center;
+        
+    }
+    #features #row-text p{
+        padding-top: 30px;
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        padding-bottom: 35px;
+    }
+    
+    #features #row-text{
+        text-align: center;
+    }
 }
 
 
@@ -323,7 +422,7 @@ header li a:hover{
         width: 100%;
     }
     header{
-        background-image: url(img/bgfix.jpg);
+        background-image: url(img/bg2.jpg);
         background-position: top;
         height: 70%;
     }
@@ -443,6 +542,33 @@ header li a:hover{
     }
     #boxes p{
         padding-bottom: 20px;
+    }
+    
+    /* Features */
+    #features #row-img{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #features #row-img img{
+        width: 85%;
+        
+    }
+    #features #row-text h2{
+        text-align: center;
+        font-size: 32px;
+        width: 100%;
+    }
+    #features #row-text p{
+        padding-top: 30px;
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 35px;
+    }
+    
+    #features #row-text{
+        text-align: center;
     }
     
 }
