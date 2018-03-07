@@ -257,7 +257,7 @@ header li a:hover{
     }
     header{
         height: 1250px;
-        background-position: top -100px left;
+        background-position: top -100px center;
         margin-bottom: -100px; 
     }
     header li{
