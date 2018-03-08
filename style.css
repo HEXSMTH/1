@@ -13,7 +13,7 @@ body{
 /* NAVBAR */
 
 header{
-    background-image: url(img/bg2.jpg);
+    background-image: url(img/bgfix.jpg);
     background-position: top -60px left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -563,7 +563,7 @@ header li a:hover{
         width: 100%;
     }
     header{
-        background-image: url(img/bg2.jpg);
+        background-image: url(img/bgfix.jpg);
         background-position: top;
         height: 70%;
     }
