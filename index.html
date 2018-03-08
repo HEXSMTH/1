@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-     
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     
      
 </head>    
@@ -180,19 +180,56 @@
     </div>
     </section>
     
-    
-    <section>
-    <div class="testtest">
-    <h1></h1>  
-    </div>
-    </section>
+    <section class="contactform">
+    <div class="container">
+        <div class="pricing-header">
+        <h2>Keep in <span>Touch</span></h2>
+        </div>
+        <div class="grid-container2">
+    <div class="grid-item1">
+    <form method="post" action="#" class="form-contact">
+    <div class="submit-status"></div>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="text" name="email" placeholder="Email Address *" class="error"> 
+        <textarea name="message" placeholder="Message *"></textarea>
         
+        <div class="form-contact-submit">
+        <input type="submit" name="submit" value="Send Message">
+        </div>
+    </form>    
+    </div>
+    <div class="grid-item2">
+    <div class="contact-info">
+    <img src="img/phone-icon.png" alt="icon">
+        <h4>Phone Number</h4>
+        <p>(00) 123-4567890 (tel-1)</p>
+        <p>(00) 123-4567890 (tel-2)</p>
+    </div>  
+        <div class="contact-info">
+    <img src="img/mail-icon.png" alt="icon">
+        <h4>Email Address</h4>
+        <p>email_1@example.com</p>
+        <p>email_2@example.com</p>
+    </div> 
+        <div class="contact-info">
+    <img src="img/map-icon.png" alt="icon">
+        <h4>Business Address</h4>
+        <p>123 Main Street Cottage, US</p>
+        <p>Long Branch, P.O Box 65148</p>
+    </div> 
+    </div> 
+    </div>
+        </div>
+    </section>
     
+    
+        <div id="map"></div>
         <!-- js --->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="menu.js"></script>
         <script src="parallax.js"></script>
-        
+        <script src="map.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHxwCddlCk5zCA_E46JO4JOf65U7hF5P0&callback=initMap"></script>    
     </body>   
 </html>
 
