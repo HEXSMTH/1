@@ -302,7 +302,7 @@ header li a:hover{
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 .pricing-bg{
