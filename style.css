@@ -19,6 +19,8 @@ header{
     background-size: cover;
     height: 700px;
     min-height: 70px;
+        
+
     
 }
 
@@ -294,8 +296,6 @@ header li a:hover{
     grid-column-gap: 30px;
 }
 .grid-item{
-    background-color: #fff;
-    min-height: 1px;
     overflow: hidden;
     background-color: #fff;
     border-radius: 3px;
@@ -303,6 +303,7 @@ header li a:hover{
     margin-right: 5px;
     margin-left: 5px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+     
 }
 
 .pricing-bg{
@@ -424,7 +425,66 @@ header li a:hover{
     background-color: #1a86ce;
 }
 
+/* Contact Section */ 
+.bg-parallax{
+    /*
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+      url(img/bgcontact.jpg); 
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;*/
+    background-color: rgba(0,0,0,.7);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+}
 
+.bg-overlay{
+    padding-top: 120px;
+    padding-bottom: 110px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Noto sans';
+}
+.contact-header{
+    padding: 0 160px;
+}
+.contact-header h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 0px;
+}
+.contact-header p{
+    font-size: 17px;
+    line-height: 28px;
+    margin: 20px 0px 0px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.contact-btn .btn-custom{
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 700;
+    white-space: nowrap;
+    background-color: #3498db;
+    padding: 14px 40px;
+    border: 1px solid #3498db;
+    outline: none;
+    border-radius: 4px;
+}
+.contact-btn .btn-custom:hover{
+   background-color: #1a86ce;
+}
+.testtest {
+    background-color: #fff;
+    height: 500px;
+}
 
 /*************** Media Queries ***********************/
 
@@ -442,6 +502,10 @@ header li a:hover{
     .header-btn{
         padding-top: 0;
     } 
+    .contact-header{
+        padding: 0;
+    }
+    
 
 }
 
@@ -546,6 +610,9 @@ header li a:hover{
     }
     #features .row{
     padding-bottom: 75px;
+    }
+    .contact-header{
+        padding: 0;
     }
 
 }
@@ -734,6 +801,21 @@ header li a:hover{
     max-width: 350px;
     margin-right: auto;
     margin-left: auto;
+    }
+    
+    /* Contact */
+    .bg-overlay{
+        padding-top: 70px;
+    }
+    .contact-header{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact-header h2{
+        font-size: 32px;
+    }
+    .contact-header p{
+        font-size: 16px;
     }
 }
 
