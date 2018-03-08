@@ -13,7 +13,7 @@ body{
 /* NAVBAR */
 
 header{
-    background-image: url(img/bgfix.jpg);
+    background-image: url(img/bg2.jpg);
     background-position: top -60px left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -299,10 +299,14 @@ header li a:hover{
     overflow: hidden;
     background-color: #fff;
     border-radius: 3px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 10px;
 }
 
 .pricing-bg{
-    background-color: #ecf8f8;
+    background-color: #e6f4f4;
     padding-top: 100px;
     padding-bottom: 60px;
 }
@@ -406,7 +410,7 @@ header li a:hover{
     
 }
 
-/* Footer Button */
+/* Pricing Footer Button */
 .table-footer{
     text-align: center;
     color: #fff;
@@ -559,7 +563,7 @@ header li a:hover{
         width: 100%;
     }
     header{
-        background-image: url(img/bgfix.jpg);
+        background-image: url(img/bg2.jpg);
         background-position: top;
         height: 70%;
     }
@@ -711,15 +715,20 @@ header li a:hover{
     /* Pricing */
     .pricing-header h2{
         font-size: 32px;
+        width: 95%;
+        margin: 0 auto;
+        
     }
     .grid-container{
         display: flex;
         flex-direction: column;
+    
+        
     }
     .grid-item{
-    margin-bottom: 35px;
-    width: 53%;
-    min-width: 360px;
+    margin-bottom: 40px;
+    width: 75%;
+    max-width: 350px;
     margin-right: auto;
     margin-left: auto;
     }
