@@ -13,7 +13,7 @@ body{
 /* NAVBAR */
 
 header{
-    background-image: url(img/bgfix.jpg);
+    background-image: url(img/bg2.jpg);
     background-position: top -60px left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,10 +195,13 @@ header li a:hover{
 #boxes{
     padding-top: 100px;
     padding-bottom: 70px;
+    background: #ecf3f8;
+    /*
             background: #f5f7fa;
             background: -webkit-linear-gradient(top,#f5f7fa,#ccdffc);
             background: -moz-linear-gradient(top,#f5f7fa,#ccdffc);
             background: linear-gradient(top,#f5f7fa,#ccdffc);   
+    */
 }
 
 #boxes .box{
@@ -240,8 +243,6 @@ header li a:hover{
 }
 #features #row-text{
     padding-top: 40px;
-    
-    
 }
 #features #row-text h2{
     
@@ -283,6 +284,142 @@ header li a:hover{
     -webkit-transition: color .2s ease, background .2s ease, border .2s ease, outline .2s ease, opacity .2s ease-in-out;
         transition: color .2s ease, background .2s ease, border .2s ease, outline .2s ease, opacity .2s ease-in-out;
 }
+
+
+
+/* PRICING */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+}
+.grid-item{
+    background-color: #fff;
+    min-height: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.pricing-bg{
+    background-color: #ecf8f8;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/* Pricing Header */
+.pricing-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.pricing-header h2{
+    font-family: 'Noto sans';
+    color: #3498db;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 0px;
+}
+.pricing-header h2 span{
+    background-color: #3498db;
+    color: #fff;
+    padding: 1px 15px 2px;
+}
+
+/* Table Pricing */
+.table-pricing{
+    padding: 30px 30px 25px;
+    box-shadow: 0px 4px 4px rgba(217,217,217,.3);
+}
+.table-pricing h4{
+    font-family: 'Noto sans';
+    text-align: center;
+    color: #a9a9a9;
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 700px;
+    margin: 0px;
+}
+.table-pricing h5{
+    text-align: center;
+    color: #3498db;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 72px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -3px;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+.table-pricing sup{
+    top: -1em;
+    font-size: .389em;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-right: 8px;
+}
+.table-pricing sub{
+    bottom: 0px;
+    font-size: .25em;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-left: 10px;
+}
+.table-pricing p{
+    font-family: 'Noto sans';
+    text-align: center;
+    color: #a9a9a9;
+    line-height: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+.grid-item #best-table{
+    background-color: #3498db;
+    
+}
+.grid-item #best-table h4{
+    color: rgba(255,255,255,.8);
+}
+.grid-item #best-table h5{
+    color: #fff;
+}
+.grid-item #best-table p{
+    color: rgba(255,255,255,.7);
+}
+
+/* Pricing List */
+.pricing-table ul{
+    font-size: 16px;
+    padding: 18px 30px;
+    margin: 0px;  
+    
+}
+.pricing-table li{
+    text-align: center;
+    list-style-type: none;
+    padding: 12px 0px;
+    font-family: 'Noto Sans';
+    color: #777;
+    font-weight: 400;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+/* Footer Button */
+.table-footer{
+    text-align: center;
+    color: #fff;
+    padding: 10px 30px 40px;
+}
+.table-footer a{
+    background-color: #3498db;
+    border: 1px solid #3498db;
+}
+.table-footer a:hover{
+    background-color: #1a86ce;
+}
+
 
 
 
@@ -422,7 +559,7 @@ header li a:hover{
         width: 100%;
     }
     header{
-        background-image: url(img/bgfix.jpg);
+        background-image: url(img/bg2.jpg);
         background-position: top;
         height: 70%;
     }
@@ -571,6 +708,21 @@ header li a:hover{
         text-align: center;
     }
     
+    /* Pricing */
+    .pricing-header h2{
+        font-size: 32px;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-item{
+    margin-bottom: 35px;
+    width: 53%;
+    min-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    }
 }
 
 
