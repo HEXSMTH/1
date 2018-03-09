@@ -453,12 +453,14 @@ header li a:hover{
     
 }
 
+
 .bg-overlay{
     padding-top: 120px;
     padding-bottom: 110px;
     text-align: center;
     color: #fff;
     font-family: 'Noto sans';
+   
 }
 .contact-header{
     padding: 0 160px;
@@ -492,13 +494,12 @@ header li a:hover{
    background-color: #1a86ce;
 }
 
-/* Map and Contact Form */
+/* Map */
 #map{
-    height: 450px;
-    
-    
+    height: 450px;  
 }
 
+/* Contact Form */
 .contactform{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -940,6 +941,7 @@ input[type="submit"]:hover{
     /* Pricing */
     .pricing-bg{
         padding-top: 60px;
+        padding-bottom: 40px;
     }
     .pricing-header h2{
         font-size: 32px;
@@ -961,16 +963,31 @@ input[type="submit"]:hover{
     
     /* Contact */
     .bg-overlay{
-        padding-top: 70px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .bg-parallax{
+    height: 100%;
         
+        
+    }
+    #contact{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+      url(img/bgcontact.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+       
     }
 
     .contact-header{
         padding-left: 15px;
         padding-right: 15px;
+        margin-top: 0;
     }
     .contact-header h2{
         font-size: 32px;
+        
     }
     .contact-header p{
         font-size: 16px;
@@ -1008,6 +1025,8 @@ input[type="submit"]:hover{
         padding-left: 0;
     
     }
+    
+    
 }
 
 
