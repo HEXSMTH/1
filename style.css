@@ -443,8 +443,8 @@ header li a:hover{
     /*background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;*/
-    background-color: rgba(0,0,0,.7);
+    position: relative;
+    background-color: rgba(0,0,0,.7);*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -971,9 +971,9 @@ input[type="submit"]:hover{
         
         
     }
-    #contact{
+    #contact{/*
         background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-      url(img/bgcontact.jpg); 
+      url(img/bgcontact.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
