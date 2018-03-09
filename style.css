@@ -570,7 +570,7 @@ input[type="submit"]:hover{
     background-color: #1a86ce;
 }
 
-/* Contact boxes */
+/* Contact form */
 .contact-info{
     position: relative;
     min-height: 60px;
@@ -843,13 +843,15 @@ input[type="submit"]:hover{
     
     /*SHOWCASE*/
     #showcase{
-        height: 1000px;
+        height: 90%;
+        
     }
     #showcase h1{
         font-size: 40px;
         line-height: 40px;
         text-align: center;
         width: 100%;
+        margin-top: 50px;
     }
     #showcase p{
         font-size: 16px;
@@ -865,6 +867,7 @@ input[type="submit"]:hover{
         width: 38%;
         top: 0;   
         right: 12%;
+        padding-bottom: 45px;
     }
     
     /* BUTTONS */
