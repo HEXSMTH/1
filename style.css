@@ -445,6 +445,7 @@ header li a:hover{
     background-size: cover;
     position: relative;
     background-color: rgba(0,0,0,.7);*/
+    background-image: url(img/bgcontactdark.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -974,6 +975,7 @@ input[type="submit"]:hover{
     #contact{/*
         background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
       url(img/bgcontact.jpg); */
+        background-image: url(img/bgcontactdark.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
